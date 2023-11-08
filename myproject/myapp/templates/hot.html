@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>IMAP</title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/icons.css">
+    <link rel="stylesheet" href='/static/css/text/css'>
+    <link rel="stylesheet" href="/static/css/lines.css">
+    <link rel="stylesheet" href="/static/css/div3.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #383636;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #242222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #0b0a0a;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #e4dcdc;
+            margin: 10px;
+        }
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #0c0c0c;
+            color: #e4dcdc;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #100f0f;
+            color: #fff;
+        }
+        .center-table {
+            margin: 0 auto;
+        }
+        table {
+            width: 100%; /* Make the table fill its container */
+     
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+ 
+       
+        .heading {
+            text-decoration: none;
+            color: #e4dcdc;
+            margin: 10px;
+           
+ 
+        }
+ 
+        .cart {
+            border: 1px solid #c89692;
+            background-color: cornsilk;
+            padding: 10px;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 1520px;">
+        <nav class="navbar navbar-expand-md" style="width: 100%;background: linear-gradient(16deg, #1d1e19 0%, #1a1a18 100%);">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <span style="color: rgb(255, 255, 255);">My Brews Cafe</span>
+                </a>
+                <div class="collapse navbar-collapse justify-content-center" id="navcol-1">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://127.0.0.1:5500/index.html#d1">
+                                <span style="color: rgb(255, 255, 255);">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="http://127.0.0.1:5500/index.html#d2">
+                                <span style="color: rgb(255, 255, 255);">Menu
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://127.0.0.1:5500/index.html#d4">
+                                <span style="color: rgb(255, 255, 255);">About Us</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://127.0.0.1:5500/index.html#d3">
+                                <span style="color: rgb(255, 255, 255);">Contact Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">Text</span>
+                </div>
+                <button class="btn btn-primary" type="button" style="border-radius: 21px;border-width: 3px;border-color: rgb(0,0,0);background: var(--bs-secondary-bg);">
+                    <a href="http://127.0.0.1:8000/myproject/myapp/templates/login.html" target="_blank">Sign In</a></button>
+                    <!-- http://127.0.0.1:8000/admin/myapp/employee/add/ -->
+                    
+                <!-- <button class="btn btn-primary" type="button" style="background: rgb(255,255,255);border-width: 3px;border-color: rgb(0,0,0);border-radius: 21px;margin-left: 10px;">Sign Up</button> -->
+            </div>
+        </nav>
+    </div>
+    
+
+        <div>
+        
+            <table class="center-table">
+            
+                <tr>
+                </tr>
+                <div width="50%">
+                    <tr colspan="2">
+                        <td class="tdd"><section>
+                            <ul>
+                                <li>
+                                    <h3>Espresso</h3>
+                                    <p>A single shot of our finest espresso.</p>
+                                    <p><strong>Price:</strong> Rs 250</p>
+                                    <button onclick="addToCart('Espresso', 250)">Add To Cart</button>
+                                </li>
+                            </ul>
+                        </section></td>
+                    
+                        <td>
+                            <img src="/static/img/hot coffee/cup-coffee-with-heart-drawn-foam.jpg" style="height: 200px; width: 180px;">
+ 
+                        </td>
+                    
+                    </tr>
+                </div>
+                <div width="50%">
+                    <tr colspan="2">
+                        <!-- <td> </td> -->
+                        <td class="tdd"><section>
+                            <ul>
+                                <li>
+                                    <h3>Latte</h3>
+                                    <p>A single shot of our finest espresso.</p>
+                                    <p><strong>Price:</strong> Rs 250</p>
+                                    <button onclick="addToCart('latte', 250)">Add To Cart</button>
+                                </li>
+                            </ul>
+                        </section></td>
+                        <td>
+                            <img src="/static/img/hot coffee/front-view-cup-cappuccino-with-cookies-book-table.jpg" style="height: 200px; width: 180px;">
+                        </td>
+                    
+                    </tr>
+                    <div width="50%">
+                        <tr colspan="2">
+                            <!-- <td> </td> -->
+                            <td class="tdd"><section>
+                                <ul>
+                                    <li>
+                                        <h3>Cappuccino</h3>
+                                        <p>A single shot of our finest espresso.</p>
+                                        <p><strong>Price:</strong> Rs 250</p>
+                                        <button onclick="addToCart('Cappuccino', 250)">Add To Cart</button>
+                                    </li>
+                                </ul>
+                            </section></td>
+                            <td>
+                                <img src="/static/img/hot coffee/cup-coffee-with-heart-drawn-foam.jpg" style="height: 200px; width: 180px;">
+                            </td>
+                        
+                        </tr>
+                    </div>
+            
+                    <div width="50%">
+                        <tr colspan="2">
+                            <!-- <td> </td> -->
+                            <td class="tdd"><section>
+                                <ul>
+                                    <li>
+                                        <h3>Macchiato</h3>
+                                        <p>A single shot of our finest espresso.</p>
+                                        <p><strong>Price:</strong> Rs 250</p>
+                                        <button onclick="addToCart('Macchiato', 250)">Add To Cart</button>
+                                    </li>
+                                </ul>
+                            </section></td>
+                            <td>
+                                <img src="/static/img/hot coffee/front-view-cup-cappuccino-with-cookies-book-table.jpg" style="height: 200px; width: 180px;">
+                            </td>
+                        
+                        </tr>
+                    </div>
+            </table>
+        
+        </div>
+    
+    
+    
+        <h2>Cart</h2>
+        <div class="cart">
+            <ul id="cart-items"></ul>
+            <p>Total: Rs <span id="cart-total">0.00</span></p>
+            <button onclick="placeOrder()">Place Order</button>
+        </div>
+    
+        <script>
+            function addToCart(itemName, itemPrice) {
+                var cartItemsElement = document.getElementById('cart-items');
+                var cartTotalElement = document.getElementById('cart-total');
+            
+                var newItem = document.createElement('li');
+                newItem.textContent = itemName + ' - Rs ' + itemPrice.toFixed(2);
+                cartItemsElement.appendChild(newItem);
+            
+                var currentTotal = parseFloat(cartTotalElement.textContent);
+                cartTotalElement.textContent = (currentTotal + itemPrice).toFixed(2);
+            }
+    
+            function placeOrder()
+            {
+        
+            alert('The order has been placed. Thank you!');
+            }
+        </script>
+
+ 
+</body>
+</html>

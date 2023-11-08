@@ -1,0 +1,50 @@
+.icons{
+    position: relative;
+    width: 1520px;
+    height: 700px;
+  }
+
+.icon1{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  
+  .icon2{
+    position: absolute;
+    left: 1400px;
+    margin-top: 20px;
+  }
+  
+  
+  .icon3{
+    position: absolute;
+    left: 45%;
+    top: 8%;
+    color: beige;
+  }
+  
+  .icon4{
+    top: 25%;
+    left: 13%;
+    position: absolute;
+  }
+  
+  .icon5{
+    top: 25%;
+    left: 43%;
+    position: absolute;
+  }
+
+  .icon6{
+    top: 25%;
+    left: 72%;
+    position: absolute;
+  }
+
+.types{
+    position: absolute;
+    top:70%;
+    font-size: 50px;
+    color: bisque;
+}

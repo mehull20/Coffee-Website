@@ -1,0 +1,170 @@
+.div3{
+    position: relative;
+}
+
+.div3icon{
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+
+.div3image{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    opacity: 0.2;
+    transform: rotate(-30deg);
+    top: 20%;
+}
+
+.div3image1{
+    position: absolute;
+    opacity: 0.2;
+    transform: rotate(-20deg);
+    top: 35%;
+    width: 200px;
+    height: 200px;
+    left: -2%;
+}
+
+.div3image2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    opacity: 0.2;
+    top: 44%;
+    left: 10%;
+}
+
+.div3image3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    opacity: 0.2;
+    transform: rotate(40deg);
+    top: 52%;
+    left: 10%;
+}
+
+.div3image4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    opacity: 0.2;
+    top: 60%;
+}
+
+.div3image5{
+    transform: rotate(-100deg);
+    top: 70%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.div3image6{
+    transform: rotate(10deg);
+    top: 60%;
+    left: 5%;
+    height: 140px;
+    width: 140px;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.div3image7{
+    transform: rotate(20deg);
+    top: 15%;
+    left: 7%;
+    height: 160px;
+    width: 140px;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.div3image8{
+    transform: rotate(-10deg);
+    top: 77%;
+    height: 120px;
+    width: 130px;
+    left: 10%;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.div3image9{
+    transform: rotate(-30deg);
+    top: 15%;
+    left: 85%;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.div3image10{
+    transform: rotate(20deg);
+    left: 89%;
+    top: 40%;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.div3image11{
+    top: 30%; left: 93%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    opacity: 0.2;
+}
+
+.div3image12{
+    transform: rotate(-20deg); top: 35%; left: 86%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    opacity: 0.2;
+}
+
+.div3image13{
+    transform: rotate(-10deg); top: 60%; left: 84%; height: 140px; width: 140px;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.div3image14{
+    transform: rotate(-20deg); top: 47%; left: 81%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    opacity: 0.2;
+}
+
+.div3image15{
+    transform: rotate(-12deg); left: 93%; top: 55%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    opacity: 0.2;
+}
+
+.div3image16{
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    height: 550px;
+    width: 550px;
+}
+
+.heading1{
+    text-align: center;
+    font-size: 100px;
+    padding-top: 10%; padding-bottom: 6%;
+    background: -webkit-linear-gradient(rgb(235, 224, 197) 40%, rgb(120, 76, 1) 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

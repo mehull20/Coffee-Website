@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>IMAP</title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/icons.css">
+    <link rel="stylesheet" href='/static/css/text/css'>
+    <link rel="stylesheet" href="/static/css/lines.css">
+    <link rel="stylesheet" href="/static/css/div3.css">
+    
+</head>
+<body>
+    <div style="width: 1520px;">
+        <nav class="navbar navbar-expand-md" style="width: 100%;background: linear-gradient(16deg, #1d1e19 0%, #1a1a18 100%);">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <span style="color: rgb(255, 255, 255);">My Brews Cafe</span>
+                </a>
+                <div class="collapse navbar-collapse justify-content-center" id="navcol-1">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#d1">
+                                <span style="color: rgb(255, 255, 255);">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#d2">
+                                <span style="color: rgb(255, 255, 255);">Menu
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#d4">
+                                <span style="color: rgb(255, 255, 255);">About Us</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#d3">
+                                <span style="color: rgb(255, 255, 255);">Contact Us</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">Text</span>
+                </div>
+                <button class="btn btn-primary" type="button" style="border-radius: 21px;border-width: 3px;border-color: rgb(0,0,0);background: var(--bs-secondary-bg);">
+                    <a href="{% url 'login' %}">Sign In</a></button>
+            </div>
+        </nav>
+        <div class="container" id="d1" style="width: 1520px;height: 800px;margin-right: 0px;margin-left: 0px;padding-right: 0px;padding-left: 0px;">
+            <img src="/static/img/coffee-latte-with-cookies-coffiee-beans.jpg" alt="My Image" style="height: 800px;width: 1520px;">
+            <div class="heading">
+                <h1>Coffee</h1>
+            </div>
+            <div class="description">
+                <p>The aromatic coffee for every taste.</p>
+                <p>Our coffee is selected with care.<br>
+                Whether mild, strong, classic or decaffeinated -<br>
+                you can decide for yourself which variety suits your taste best.<br>
+                With our coffee, you can fully enjoy every cup of coffee!</p>
+            </div>
+        </div>
+        <div class="icons" id="d2" style= "background: radial-gradient(#21221e 50%, #010101 100%);">
+            <div class="icon1">
+                <img src="/static/img/cappuccino_9482672.png" style="width: 80px; height: 80px;">
+            </div>
+            <div class="icon2">
+                <img src="/static/img/cappuccino_9482672.png" style="height: 80px;width: 80px;">
+            </div>
+            <div class="icon3">
+                <h1>MENU</h1>
+            </div>
+            <div class="icon4">
+                <img src="/static/img/cappucino_image.png" style="height: 270px; width: 270px;">
+            </div>
+            <div class="icon5">
+                <img src="/static/img/frappucino_image.png" style="height: 270px; width: 270px;">
+            </div>
+            <div class="icon6">
+                <img src="/static/img/iced_image.png" style="height: 270px; width: 270px;">
+            </div>
+            <div>
+                <a href="{% url 'hot' %}">
+                    <h2 class="types" style="left: 20%;">Hot</h2>
+                </a>
+                <div class="vertical1"></div>
+                <a href="{% url 'frappes' %}">
+                    <h2 class="types" style="left: 43%;">Frappucinos</h2>
+                </a>
+                
+                <div class="vertical2"></div>
+                <a href="{% url 'iced' %}">
+                    <h2 class="types" style="left: 77%;">Iced</h2>
+                </a>
+                
+            </div>
+        </div>
+
+        <div id="d3" class="div3" style="width: 1520px; height: 800px; background:linear-gradient(#161614 0%, #1b1b19 100%);">
+            <!-- <div class="div3icon">
+                <img src="static/img/coffee-cup_751621.png" style="width: 100px; height: 100px;">
+                <h2 style="color: white; margin-left: -15px; margin-top: 10px">My Brews</h2>
+            </div> -->
+            
+            <img src="/static/img/3rd page/book_5606024.png" class="div3image">
+            <img src="/static/img/3rd page/cafe_5900188.png" class="div3image1">
+            <img src="/static/img/3rd page/coffee-bean_8636325.png" class="div3image2">
+            <img src="/static/img/3rd page/coffee-bean_8636325.png" class="div3image3">
+            <img src="/static/img/3rd page/coffee-bean_8636325.png" class="div3image4">
+            <img src="/static/img/3rd page/coffee-beans_7338722.png"class="div3image5">
+            <img src="/static/img/3rd page/coffee-cup_4553222.png" class="div3image6">
+            <img src="/static/img/3rd page/coffee-machine_9026707.png" class="div3image7">
+            <img src="/static/img/3rd page/hot-chocolate_6182254.png" class="div3image8">
+            
+            <img src="/static/img/3rd page/coffee-cup_6203977.png" class="div3image9">
+            <img src="/static/img/3rd page/seed_8768686.png" class="div3image10">
+            <img src="/static/img/3rd page/coffee-bean_8636325.png" class="div3image11">
+            <img src="/static/img/3rd page/coffee-bean_8636325.png" class="div3image12">
+            <img src="/static/img/3rd page/coffee-beans_6451433.png" class="div3image13">
+            <img src="/static/img/3rd page/punch_7455765.png" class="div3image14">
+            <img src="/static/img/3rd page/coffee-beans_7338722.png"class="div3image15"> 
+            
+            
+            <!-- <img src="static/img/3rd page/1698253875310.png" class="div3image16"> -->
+
+            <h1 class="heading1">Drop By for a Bite.</h1>
+            <div style="width: 100%;">
+                <div style="color: #a39e8c; text-align: center; width: 50%; float: left; padding-left: 20%;">
+                    <h3>Address</h3>
+                    <br>
+                    <br>
+                    <h3>20, Street Fairy,<br>
+                        Mumbai, India, 400056</h3>
+                </div>
+                <div class="vertical3"></div>
+                <div style="color: #a39e8c; text-align: center; width: 50%; float: right; padding-right: 20%;">
+                    <h3>Address</h3>
+                    <br>
+                    <br>
+                    <h3>Mon - Fri: 9am - 6pm<br>
+                        Saturday: 10am - 2pm<br>
+                        Sunday: Closed</h3>
+                </div>
+            </div>
+            
+        </div>
+        <div id="d4">
+            <div style="float: left; width: 60%; height: 700px; background:radial-gradient(#161614 50%, #1b1b19 100%);">
+                <img src="/static/img/about us drink.jpg" style="width: 100%; height: 700px;">
+            </div>
+            <div style="float: right; width: 40%; height: 700px; background-color: rgb(144, 137, 126);">
+                <h1 style="position: absolute; font-size: 100px; margin-left: 40px; margin-top: 4%;">About Us</h1>
+                <h2 style="font-size: 19px; position: absolute; margin-top: 13%; margin-left: 40px; padding: 0%;">
+                    Our main goal since we began has remained basic:<br>
+                    acquaint our clients with the domains we specifically<br>
+                    purchase our extraordinary-tasting coffee from.<br>
+                    The coffee we cook is the coffee we like to drink, and<br>
+                    we trust you like it as well.<br>
+                    At <b>My Brews Cafe</b>, we pursue a straightforward<br>
+                    arrangement of convictions.<br>
+                    <br>
+                    <b>Straightforwardness is significantly more than exactly<br>
+                        where we get our beans from.</b><br>
+                    <br>
+                    As should be obvious, Coffee is our obsession,<br>
+                    and like great nourishment, wine, and love,<br>
+                    coffee needs time to achieve its full flavor.<br>
+                    You can be guaranteed that the coffee you purchase from<br>
+                    My Brew Cafe is the freshest coffee ever.<br>
+                    Since we always remember that Life's unreasonably<br>
+                    short for stale coffee!</h2>
+    
+            </div>
+        </div>
+
+        
+
+    </div>
+</body>
+</html>

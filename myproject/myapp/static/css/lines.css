@@ -1,0 +1,26 @@
+.vertical1 {
+    border-left: 1px solid burlywood;
+    height: 400px;
+    position:absolute;
+    left: 37%;
+    top: 25%;
+    opacity: 0.5;
+}
+
+.vertical2 {
+    border-left: 1px solid burlywood;
+    height: 400px;
+    position:absolute;
+    left: 66%;
+    top: 25%;
+    opacity: 0.5;
+}
+
+.vertical3{
+    border-left: 1px solid burlywood;
+    height: 270px;
+    position:absolute;
+    left: 50%;
+    top: 42%;
+    opacity: 0.5;
+}
